@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduSpace — Обучение для будущего</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <a class="logo" href="#">Edu<span>Space</span></a>
+        <nav>
+          <ul class="menu">
+            <li><a href="#courses">Курсы</a></li>
+            <li><a href="#features">Преимущества</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+            <li><a href="#cta">Старт</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="tag">Онлайн-платформа №1 для развития навыков</p>
+            <h1>Учись у практиков и выходи на новый уровень карьеры</h1>
+            <p class="subtitle">
+              Короткие интерактивные уроки, реальные кейсы и поддержка менторов,
+              чтобы ты достигал результатов быстрее.
+            </p>
+            <div class="hero-actions">
+              <a href="#courses" class="btn btn-primary">Выбрать курс</a>
+              <a href="#features" class="btn btn-secondary">Почему мы?</a>
+            </div>
+            <div class="stats-row">
+              <div>
+                <strong>15K+</strong>
+                <span>активных студентов</span>
+              </div>
+              <div>
+                <strong>120+</strong>
+                <span>практических курсов</span>
+              </div>
+              <div>
+                <strong>92%</strong>
+                <span>завершают обучение</span>
+              </div>
+            </div>
+          </div>
+          <aside class="hero-card">
+            <h2>Ближайший запуск</h2>
+            <p>Frontend Developer Bootcamp</p>
+            <ul>
+              <li>Старт: 15 марта</li>
+              <li>Длительность: 10 недель</li>
+              <li>Формат: Онлайн + практика</li>
+            </ul>
+            <button>Забронировать место</button>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="courses">
+        <div class="container">
+          <h2>Популярные направления</h2>
+          <p class="section-intro">Выбери трек под свою цель и развивайся с понятным планом.</p>
+          <div class="cards-grid">
+            <article class="card">
+              <h3>Web Development</h3>
+              <p>HTML, CSS, JavaScript, React и проектная работа для портфолио.</p>
+              <a href="#">Подробнее →</a>
+            </article>
+            <article class="card">
+              <h3>Data Analytics</h3>
+              <p>SQL, Python, визуализация данных и аналитика для бизнеса.</p>
+              <a href="#">Подробнее →</a>
+            </article>
+            <article class="card">
+              <h3>UI/UX Design</h3>
+              <p>Исследования, прототипирование, дизайн-системы и работа в Figma.</p>
+              <a href="#">Подробнее →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section muted" id="features">
+        <div class="container">
+          <h2>Почему выбирают EduSpace</h2>
+          <div class="feature-list">
+            <div>
+              <h3>Практика с первого дня</h3>
+              <p>Каждый модуль включает мини-проект, чтобы закрепить теорию на практике.</p>
+            </div>
+            <div>
+              <h3>Поддержка наставника</h3>
+              <p>Получай обратную связь по заданиям и персональные рекомендации.</p>
+            </div>
+            <div>
+              <h3>Гибкий график</h3>
+              <p>Учись в удобное время — материалы и записи всегда под рукой.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="reviews">
+        <div class="container">
+          <h2>Отзывы студентов</h2>
+          <div class="cards-grid reviews">
+            <blockquote class="card">
+              «За 3 месяца я собрала портфолио и получила оффер на junior-позицию.»
+              <cite>— Алина, UI Designer</cite>
+            </blockquote>
+            <blockquote class="card">
+              «Очень сильные менторы и понятная структура курса. Рекомендую!»
+              <cite>— Тимур, Frontend Developer</cite>
+            </blockquote>
+            <blockquote class="card">
+              «Понравилось, что много практики на реальных задачах компаний.»
+              <cite>— Дилшод, Data Analyst</cite>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta" id="cta">
+        <div class="container cta-inner">
+          <h2>Готов начать обучение уже сегодня?</h2>
+          <p>Оставь заявку и получи персональный учебный план на 2026 год.</p>
+          <a class="btn btn-primary" href="#">Записаться бесплатно</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-row">
+        <p>© <span id="year"></span> EduSpace. Все права защищены.</p>
+        <a href="#">Политика конфиденциальности</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
